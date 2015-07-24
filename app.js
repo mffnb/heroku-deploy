@@ -12,6 +12,6 @@ app.get('/', indexController.index);
 
 var port = process.env.PORT || 9812;
 
-var server = app.listen(9812, function() {
+var server = app.listen(port, function() {
 	console.log('Express server listening on port ' + server.address().port);
 });
